@@ -22,6 +22,8 @@ Logic family is a type of method that is used for the implementation of differen
 # DC Plot
 <img width="347" alt="v2dc" src="https://github.com/user-attachments/assets/8994980a-c439-499a-a192-5f41132b34dc">
 
+# Final Paper Link: 
+
 # Tools used and steps to reproduce all waveforms (Tools allowed are xschem/eSim/ngspice)
 Ngspice is an open source mixed-signal circuit simulator.
 

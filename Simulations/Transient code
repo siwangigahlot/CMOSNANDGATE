@@ -1,0 +1,4 @@
+".lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.tran 0.01n 20n
+.save all
+.end"

@@ -8,19 +8,57 @@ Logic family is a type of method that is used for the implementation of differen
 
 # Paper link: 
 
-#Block Diagram of NAND gate
+# Block Diagram of NAND gate
 <img width="370" alt="Block Diagram" src="https://github.com/user-attachments/assets/7d12a378-a421-49a9-9d3b-fa4a41beb183">
 
 
-#Circuit Diagram of NAND Gate
+# Circuit Diagram of NAND Gate
 <img width="382" alt="Screenshot 2024-11-07 231416" src="https://github.com/user-attachments/assets/eb93eeae-2992-4725-a0cc-f190050bfecf">
 
-#Transient Analysis
+# Transient Plot
 <img width="900" alt="Transient Analysis" src="https://github.com/user-attachments/assets/78b57246-25d1-41c5-935d-e35d237c8f04">
 
 
-#DC analysis
+# DC Plot
 <img width="347" alt="v2dc" src="https://github.com/user-attachments/assets/8994980a-c439-499a-a192-5f41132b34dc">
+
+# Tools used and steps to reproduce all waveforms (Tools allowed are xschem/eSim/ngspice)
+Ngspice is an open source mixed-signal circuit simulator.
+
+## Installing Ngspice
+For Ubuntu
+Open your terminal and type the following to install Ngspice
+$ sudo apt-get install -y ngspice
+
+# Running the Simulation
+$ ngspice
+
+To simulate a netlist, type:
+ngspice 1 ->  source <filename>.cir
+
+You can exit from the Ngspice Shell by typing:
+ngspice 1 ->  exit
+
+#Future Work
+1. Efficiency can be made in designing using advanced technology.
+
+#Contributors
+ Kunal Ghosh
+ Sumanto
+
+#Acknowledgement
+ Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+
+#Contact Information
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+   
+   
+
+
+
+
+
 
 
 

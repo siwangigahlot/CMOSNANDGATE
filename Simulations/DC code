@@ -1,0 +1,6 @@
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.dc V2 0 5 1
+.control
+.save all
+.endc
+.end
